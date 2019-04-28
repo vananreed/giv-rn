@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
 
-export default class LinksScreen extends React.Component {
+export default class NotificationsScreen extends React.Component {
   static navigationOptions = {
     title: 'Giv',
   };
@@ -22,3 +22,4 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
+
